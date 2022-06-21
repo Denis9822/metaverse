@@ -1287,4 +1287,8 @@
         .tokemonics_text img{
             left: 0;
         }
+        .main_bg_blur{
+            top: calc(100vh - 200px);
+            bottom: initial;
+        }
     }
