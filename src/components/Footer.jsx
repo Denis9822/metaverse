@@ -24,18 +24,18 @@ return(
         <div class="footer_bg">
             <div class="footer_bg_btns">
                 <div class="footer_bg_btn">
-                    <a href="https://about.facebook.com/">
+                    <a target="_blank" href="https://about.facebook.com/">
                         <img src="img/inst.svg" alt=""/>
                     </a>
                     
                 </div>
                 <div class="footer_bg_btn">
-                <a href="https://www.instagram.com/meta/">
+                <a target="_blank" href="https://www.instagram.com/meta/">
                     <img src="img/facebook.svg" alt=""/>
                     </a>
                 </div>
                 <div class="footer_bg_btn">
-                    <a href="https://twitter.com/Meta?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <a target="_blank" href="https://twitter.com/Meta?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                     <img src="img/twitter.svg" alt=""/>
                     </a>
                 </div>
