@@ -26,7 +26,9 @@ return(
     {headerStyleVar == 0 &&
         <div class="main_bg"></div>
     }
-   
+    {headerStyleVar == 0 &&
+   <div class="main_bg_blur"></div>
+}
     <div class="header_blur"></div>
     
     <div class="h_w">
