@@ -18,7 +18,7 @@ root.render(
     <Routes>
         <Route path='/' element={<App />}>
             <Route index element={<Main />}/>
-            <Route path="/roadmap" element={<Roadmap />}/>  
+            <Route index path="roadmap" element={<Roadmap />}/>  
         </Route>
     </Routes>
   </BrowserRouter>
