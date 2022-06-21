@@ -18,9 +18,8 @@ root.render(
     <Routes>
         <Route path='/' element={<App />}>
             <Route index element={<Main />}/>
-            
+            <Route index path="roadmap" element={<Roadmap />}/>  
         </Route>
-        <Route index path="roadmap" element={<Roadmap />}/>  
     </Routes>
   </BrowserRouter>
 );
