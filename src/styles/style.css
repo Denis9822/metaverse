@@ -1291,4 +1291,7 @@
             top: calc(100vh - 200px);
             bottom: initial;
         }
+        .h_w {
+            padding-top: 13px;
+        }
     }
