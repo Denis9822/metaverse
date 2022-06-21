@@ -995,7 +995,7 @@
         }
         .header_blur {
             width: 201px;
-            height: 81px;
+            height: 0px;
             top: 53px;
         }
         section.main h1 {
@@ -1208,7 +1208,7 @@
             background-color: #04071A;
             top: -30px;
             width: 100vw;
-            height: 575px;
+           height: 575px;
             padding: 4.5%;
             z-index: 1;
             display: none;
