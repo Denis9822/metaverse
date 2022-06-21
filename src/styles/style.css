@@ -1117,6 +1117,7 @@
         }
         .main_bg {
             background-image: url('/public/img/main_bg_mob.png');
+            max-height: 100vh;
         }
         .roadmap_main h1 {
             font-weight: 500;
