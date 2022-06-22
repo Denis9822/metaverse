@@ -6,6 +6,11 @@ function Main() {
     return ( 
     <div>
     <section class="main container">
+        <div class="btn_connect_wallet main_btn_connect_wallet mob">
+                <img src="img/wallet.svg" alt=""/>
+                <span>{t("btn_connect_wallet")}</span>
+            </div>
+
         <h1>{t("main_h1")}</h1>
         <h2>
             <span>{t("main_h2_span")}</span> {t("main_h2")}
@@ -92,15 +97,22 @@ function Main() {
                 <span>
                     {t("participation_text_span")} <f> Meta </f>Coin  от Meta<f>Facebook</f>
                         <br/>
-                        {t("participation_text_span2")} <f>0.1$</f>
+                        {t("participation_text_span2")}
                     </span>
 
                 <p>
                     
                     {t("participation_text_p")}
                     <f> 10 Meta Coin </f> {t("participation_text_p1")}
+                    <f> 10$ </f>
+                    {t("participation_text_p3")}
                     <f> 30$ </f>
+                    {t("participation_text_p4")}
                 </p>
+
+                <h5>
+                {t("participation_text_p5")}
+                </h5>
 
                 <div class="btn_connect_wallet participation_btn_connect_wallet">
                     <img src="img/wallet.svg" alt=""/>
@@ -151,7 +163,7 @@ function Main() {
                 <div class="what_talk_item_text">
                     <span>{t("what_talk_item_text_span4")}</span>
 
-                    <h4>“Uoren Buffett”</h4>
+                    <h4>“Warren Buffett”</h4>
                 </div>
                 <div class="what_talk_item_img what_talk_item_img4">
                     <img src="img/buff.png" alt="" class="pc"/>

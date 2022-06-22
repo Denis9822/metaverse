@@ -14,7 +14,7 @@ function Roadmap() {
         <div class="roadmap_main_w">
             <div class="roadmap_main_text">
                 <span>
-                    {t("roadmap_main_text_span")} <f> Metahero </f> {t("roadmap_main_text_span_2")} 
+                    {t("roadmap_main_text_span")} <f> Meta </f> {t("roadmap_main_text_span_2")} 
                 </span>
                 <p>
                     {t("roadmap_main_text_p")}
